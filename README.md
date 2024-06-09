@@ -39,25 +39,33 @@
         Un identificador es el nombre de variables, metodos, clases e interfaces.
         Los nombres pueden incluir el caracter subrayado (_) y el dolar ($)
         Nombres no validos representan total longitud.
-         ---TIPOS DE DATOS
+          <h1>---TIPOS DE DATOS</h1>
          Son enteros, coma,flotante, boolean,lógicos y caracteres.
-         ---Char
+          <h2>---Char</h2>
          Un caracter UNICODE 2 bytes
-         ---Double 
+          <h2>---Double</h2>
          Num.coma flotante de doble precición 
          Rango 1.7e-30..1.7e+308 8 bytes
-         ---Long
+          <h2>---Long</h2>
          Numero entero entre rango de 9.223 372.036 8 bytes
-         ---Float
+          <h2>---Float</h2>
          Num. coma flotante de simple preesición Rango 3.4e-3.4e+38
-         --Slust 
+          <h2>--Slust</h2>
          Numero entero entre 2 bytes.
-         ---Int 
+          <h2>---Int</h2>
          Numero entero entre Rango de -2.147.483.648... -2.147.483.647 4 bytes
-         ---Boolean
+         <h2>---Boolean</h2>
          Puede tomar dos valores(true,verdadero,false,falso) 1 byte
-         ---Byte 
+         <h2>---Byte </h2>
          byte de datos (Rango-128.127) 1 byte
+                <h1>VARIABLES</h1>
+           Se define por la combinación de un identificador, inicializador opcional. Tipos y moldeado: >Los dos tipos son compatibles >El tipo destino es mas grande que el tipo fuerte.
+           <h2> variables finales</h2>
+            Final- inicializadas cuando son declaradas y no se pueden modificar.
+                <h2> variables locales</h2>
+           Debe ser directa o indirectamente antes de uno.
+           <h2>variables parametro </h2>
+         Se inicializan siempre con una copia del valor utilizado en la llamada del metodo.
             </p>
         </div>
      <div class="feature">
